@@ -82,7 +82,7 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![C#][C#]][Next-url]
+* C# [CSharp]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,9 +108,11 @@ This is an example of how to list things you need to use the software and how to
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get free Api token for your discord bot at [https://discord.com/developers/]
-2. Have an Untis account
-3. Clone repository
-4. in folder net8.0/
+2. Set the discord Bot
+3. Have an Untis account
+4. Clone repository
+5. in folder schoolBot/bin/Debug/net8.0 edit file called conf.json with needed information that you shoud have
+6. than run schoolBot.exe in same folder 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
