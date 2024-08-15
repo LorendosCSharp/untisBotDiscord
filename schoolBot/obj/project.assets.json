@@ -4352,20 +4352,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AdminAcc\\.nuget\\packages\\": {}
+    "/home/marcthedev/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AdminAcc\\Documents\\Apps\\WebUntisDiscordBotCSharp\\schoolBot\\schoolBot\\schoolBot.csproj",
+      "projectUniqueName": "/home/marcthedev/RiderProjects/untisBotDiscord/schoolBot/schoolBot.csproj",
       "projectName": "schoolBot",
-      "projectPath": "C:\\Users\\AdminAcc\\Documents\\Apps\\WebUntisDiscordBotCSharp\\schoolBot\\schoolBot\\schoolBot.csproj",
-      "packagesPath": "C:\\Users\\AdminAcc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AdminAcc\\Documents\\Apps\\WebUntisDiscordBotCSharp\\schoolBot\\schoolBot\\obj\\",
+      "projectPath": "/home/marcthedev/RiderProjects/untisBotDiscord/schoolBot/schoolBot.csproj",
+      "packagesPath": "/home/marcthedev/.nuget/packages/",
+      "outputPath": "/home/marcthedev/RiderProjects/untisBotDiscord/schoolBot/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AdminAcc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/marcthedev/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4383,11 +4382,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4430,12 +4424,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.7, 8.0.7]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

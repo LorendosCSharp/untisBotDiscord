@@ -2,5 +2,6 @@
 	"token": "ds Bot token here",
 	"prefix": "command prefix",
 	"untisLogin": "units login",
-	"untisPassword": "untis password"
+	"untisPassword": "untis password",
+	"homeworkChannelId": 1234567890
 }

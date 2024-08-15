@@ -8,6 +8,7 @@ namespace LorendosBotUntis.conf
         public string discordPrefix { get; set; }
         public string untisLogin { get; set; }
         public string untisPassword { get; set; }
+        public ulong homeworkChannelId { get; private set; }
 
         public async Task ReadJSON()
         {
@@ -19,6 +20,7 @@ namespace LorendosBotUntis.conf
                 discordPrefix = data.prefix;       // Corrected property name
                 untisLogin = data.untisLogin;
                 untisPassword = data.untisPassword;
+                homeworkChannelId = data.homeworkChannelId;
             }
         }
     }
@@ -28,5 +30,6 @@ namespace LorendosBotUntis.conf
         public string prefix { get; set; }
         public string untisLogin { get; set; }
         public string untisPassword { get; set; }
+        public ulong homeworkChannelId { get; init; }
     }
 }
