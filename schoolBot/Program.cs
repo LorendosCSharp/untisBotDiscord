@@ -3,6 +3,8 @@ using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using LorendosBotUntis.conf;
 using LorendosBotUntis.discordCommands.prefixBasic;
+using LorendosBotUntis.misc;
+
 namespace LorendosBotUntis
 {
     public sealed class Program
@@ -45,6 +47,8 @@ namespace LorendosBotUntis
             commands.RegisterCommands<prefixCommands>();
 
             await discordClient.ConnectAsync();
+            new planRoutine().getPlan(await discordClient.GetChannelAsync(jsonReader.homeworkChannelId));
+            
             // secures bots life , you don't want to kill him , are you?
             await Task.Delay(-1);
         }
